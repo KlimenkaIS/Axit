@@ -1,0 +1,38 @@
+.tabs-with-soft {
+    width: 100%;
+}
+
+.tabs {
+    box-sizing: border-box;
+    width: 1170px;
+    height: 540px;
+    margin: 0 auto;
+}
+
+.tabs__navigate {   
+    padding: 100px;
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.tabs__navigate__one {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 203px;
+    height: 40px;
+    border-radius: 5px 5px 0px 0px;
+    border-top: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+}
+
+.tabs__navigate__two {
+
+}
