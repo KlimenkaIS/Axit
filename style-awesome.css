@@ -1,5 +1,6 @@
 .why-this-is-awesome {
     width: 100%;
+    margin-top: 150px;
 }
 
 .awesome {
@@ -71,4 +72,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 8px;
 }
