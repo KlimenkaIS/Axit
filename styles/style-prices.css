@@ -45,7 +45,7 @@
 .items {
     display: flex;
     flex-direction: column;
-}
+}   
 .items__window {
     display: flex;
     justify-content: center;
