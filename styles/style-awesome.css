@@ -1,15 +1,15 @@
-.why-this-is-awesome {
+.awesome {
     width: 100%;
     margin-top: 150px;
 }
 
-.awesome {
+.cap {
     box-sizing: border-box;
     width: 1170px;
     margin: 0 auto;
 }
 
-.awesome__title {
+.cap__title {
     padding: 100px 10px 50px 10px;
     color: #000;
     text-align: center;
@@ -20,13 +20,13 @@
     line-height: normal;
 }
 
-.awesome__line {
+.cap__line {
     width: 170px;
     border: 1px solid #EC7979;
     margin: 0 auto;
 }
 
-.awesome__subtitle {
+.cap__subtitle {
     padding-top: 40px;
     padding-bottom: 50px;
     color: #86878B;

@@ -4,12 +4,12 @@
     margin-top: 150px;
     box-sizing: border-box;
 }
-.heading {
+.cap {
     box-sizing: border-box;
     width: 1170px;
     margin: 0 auto;
 }
-.heading__title {
+.cap__title {
     padding: 100px 10px 50px 10px;
     text-align: center;
     font-family: Raleway;
@@ -19,12 +19,12 @@
     line-height: normal;
     text-transform: uppercase;
 }
-.heading__line {
+.cap__line {
     width: 170px;
     border: 1px solid #EC7979;
     margin: 0 auto;
 }
-.heading__subtitle {
+.cap__subtitle {
     padding-top: 40px;
     padding-bottom: 50px;
     color: #86878B;
@@ -42,63 +42,53 @@
     width: 1170px;
     justify-content: space-between;
 }
-.items {
+.items:hover {  
     display: flex;
     flex-direction: column;
-}   
+    position: relative;
+    bottom: 20px;
+}
 .items__window {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid #F5F5F5;
+    width: 370px;    
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
 }
-.black {
+.items__window_black {
     background: #333;
 }
-.white {
-    width: 370px;
+.items__window_white {
     height: 50px;
     background: #FFF;
     color: #86878B;
-    text-align: center;
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     text-transform: capitalize;
 }
-.top {
-    width: 370px;
+.items__window_top {
     height: 60px;
     color: #FFF;
-    text-align: center;
     font-family: Open Sans;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
 }
-.middle {
-    width: 369px;
+.items__window_middle {
     height: 100px;
     color: #FFF;
-    text-align: center;
     font-family: Raleway;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
-.bottom {
-    width: 370px;
+.items__window_bottom {
     height: 50px;
     color: rgba(255, 255, 255, 0.50);
-    text-align: center;
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
