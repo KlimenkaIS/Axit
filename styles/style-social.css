@@ -1,0 +1,31 @@
+.social {
+    width: 100%;
+    background-color: #F8EFEF;
+}
+.social-content {
+    margin: 0 auto;
+    width: 1170px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+.social-text__title {
+    margin: 0;
+    color: #333;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.social-text__subtitle {
+    margin: 0;
+    color: #86878B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+}

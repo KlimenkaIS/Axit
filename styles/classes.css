@@ -1,0 +1,37 @@
+.cap {
+    box-sizing: border-box;
+    width: 1170px;
+    margin: 0 auto;
+}
+.cap__title {
+    padding: 100px 10px 50px 10px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.cap__line {
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: 0 auto;
+}
+.cap__subtitle {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+}
+.icons {
+    width: 57%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons__picture {
+    width: 70px;
+    height: 70px;
+}

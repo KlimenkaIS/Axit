@@ -2,38 +2,6 @@
     background: #F5F5F5;
     width: 100%;
     margin-top: 50px;
-    box-sizing: border-box;
-}
-.cap {
-    box-sizing: border-box;
-    width: 1170px;
-    margin: 0 auto;
-}
-.cap__title {
-    padding: 100px 10px 50px 10px;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-}
-.cap__line {
-    width: 170px;
-    border: 1px solid #EC7979;
-    margin: 0 auto;
-}
-.cap__subtitle {
-    padding-top: 40px;
-    padding-bottom: 50px;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .group {
     margin: auto;
@@ -47,7 +15,7 @@
     flex-direction: column;
 
 }
-.items:hover {
+.items_hover:hover {
     position: relative;
     bottom: 20px;
 }

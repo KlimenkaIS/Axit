@@ -1,0 +1,27 @@
+footer {
+width: 100%;
+background-color: black;
+}
+.footer-items {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1170px;
+    height: 164px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.footer-subtitle {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+}
+.icons__picture_footer {
+    width: 53.2px;
+    height: 53.2px;
+}

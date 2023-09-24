@@ -5,16 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Axit</title>
-    <link rel="stylesheet" href="styles/style-awesome.css">
-    <link rel="stylesheet" href="styles/style-tabs.css">
-    <link rel="stylesheet" href="styles/style-prices.css">
-    <link rel="stylesheet" href="styles/style-customers.css">
+    <link rel="stylesheet" href="./styles/classes.css">
+    <link rel="stylesheet" href="./styles/style-awesome.css">
+    <link rel="stylesheet" href="./styles/style-tabs.css">
+    <link rel="stylesheet" href="./styles/style-prices.css">
+    <link rel="stylesheet" href="./styles/style-customers.css">
+    <link rel="stylesheet" href="./styles/style-header.css">
+    <link rel="stylesheet" href="./styles/style-banner.css">
+    <link rel="stylesheet" href="./styles/style-social.css">
+    <link rel="stylesheet" href="./styles/style-design.css">
+    <link rel="stylesheet" href="./styles/style-contact.css">
+    <link rel="stylesheet" href="./styles/style-footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-
-
 </head>
 
+
+
 <body>
+    <header>
+    <div class="header-items">
+        <div class="header-items-logo">
+            <img class="header-items-logo__picture" src="images/logo.png" alt="logotype">
+        </div>
+        <nav class="header-items-navigation">
+            <div class="header-items-navigation__menu">features</div>
+            <div class="header-items-navigation__menu">About</div>
+            <div class="header-items-navigation__menu">Pricing</div>
+            <div class="header-items-navigation__menu">Reviews</div>
+            <div class="header-items-navigation__menu">Contact</div>
+        </nav>
+    </div>
+    </header>
+    <section class="banner">
+        <div class="banner_background-extra">
+            <div class="banner-content">
+                <div class="banner-description">
+                    <img src="./images/AXIT.png" alt="AX" class="banner-description__logo">
+                    <img src="./images/AXIT2.png" alt="IT" class="banner-description__logo">
+                    <div class="banner-description__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</div>
+                    <div class="banner-description__line"></div>
+                    <div class="banner-description__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                    <a class="banner-description__button" href="#">Download</a>
+                </div>
+                <form action="" class="banner-form">
+                    <h4 class="banner-form__title">Try Your <span class="banner-form__title_colortext">FREE</span> Trial Today</h4>
+                    <input class="banner-form__input banner-form__input_placeholder" type="text" placeholder="Name">
+                    <input class="banner-form__input banner-form__input_placeholder" type="text" placeholder="Email">
+                    <input class="banner-form__input banner-form__input_placeholder" type="text" placeholder="Password">
+                    <button class="banner-form__button" type="submit">Get Started</button>
+                </form>
+            </div>
+        </div>    
+    </section>
+    <section class="social">
+        <div class="social-content">
+            <div class="social-text">
+                <h4 class="social-text__title">Social Media</h4>
+                <h5 class="social-text__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
+                    Aenean euismod bibendum laoreet.</h5>
+            </div>
+            <div class="icons">
+                <img src="./images/facebook_icon.png" alt="facebook" class="icons__picture">
+                <img src="./images/twitter_icon.png" alt="twitter" class="icons__picture">
+                <img src="./images/linkedin_icon.png" alt="linkedin" class="icons__picture">
+                <img src="./images/pinterest_icon.png" alt="pinterest" class="icons__picture">
+                <img src="./images/instagram_icon.png" alt="instagram" class="icons__picture">
+                <img src="./images/github_icon.png" alt="github" class="icons__picture">
+                <img src="./images/rss_icon.png" alt="rss" class="icons__picture">
+            </div>
+        </div>
+    </section>
     <section class="tabs-with-soft">
         <div class="tabs">
             <div class="tabs-navigate">
@@ -75,7 +135,7 @@
             <div class="cap__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
         </div>  
         <div class="group">
-                <div class="items items:hover">
+                <div class="items items_hover">
                     <div class="items__window items__window_black items__window_top">Basic</div>
                     <div class="items__window items__window_black items__window_middle">$10</div>
                     <div class="items__window items__window_black items__window_bottom">Free for life</div>
@@ -85,7 +145,7 @@
                     <div class="items__window items__window_white">1 gb of space</div>
                     <div class="items__window items__window_white">1 gb of space</div>
                 </div>
-                <div class="items">
+                <div class="items items_hover">
                     <div class="items__window items__window_black items__window_top">Optima</div>
                     <div class="items__window items__window_black items__window_middle">$20</div>
                     <div class="items__window items__window_black items__window_bottom">Free for life</div>
@@ -95,7 +155,7 @@
                     <div class="items__window items__window_white">1 gb of space</div>
                     <div class="items__window items__window_white">1 gb of space</div>
                 </div>
-                <div class="items">
+                <div class="items items_hover">
                     <div class="items__window items__window_black items__window_top">Pro</div>
                     <div class="items__window items__window_black items__window_middle">$30</div>
                     <div class="items__window items__window_black items__window_bottom">Free for life</div>
@@ -154,7 +214,46 @@
         </div> 
         </div> 
     </section>
-
+    <section class="design">
+        <div class="design_background-extra">
+            <div class="cap">
+                <div class="cap__title cap__title_design-color">STYLISH AXURE DESIGN</div>
+                <div class="cap__line cap__line_design-color"></div>
+                <div class="cap__subtitle cap__subtitle_design-color">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</div>
+            </div>    
+            <a class="design-button" href="#">Download</a>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="cap">
+            <div class="cap__title">contact us</div>
+            <div class="cap__line"></div>
+            <div class="cap__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        </div>
+        <form action="" class="contact-form">
+            <div class="contact-line">
+                <input class="contact-line__input contact-line__input_placeholder" type="text" placeholder="Name">
+                <input class="contact-line__input contact-line__input_placeholder" type="text" placeholder="Email">
+                <input class="contact-line__input contact-line__input_placeholder" type="text" placeholder="Password">
+            </div>
+            <textarea class="contact-textarea contact-textarea_placeholder" placeholder="Message"></textarea>
+            <button class="contact-form__button" type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-items">
+            <div class="icons">
+                <img src="./images/facebook_icon.png" alt="facebook" class="icons__picture icons__picture_footer">
+                <img src="./images/twitter_icon.png" alt="twitter" class="icons__picture icons__picture_footer">
+                <img src="./images/linkedin_icon.png" alt="linkedin" class="icons__picture icons__picture_footer">
+                <img src="./images/pinterest_icon.png" alt="pinterest" class="icons__picture icons__picture_footer">
+                <img src="./images/instagram_icon.png" alt="instagram" class="icons__picture icons__picture_footer">
+                <img src="./images/github_icon.png" alt="github" class="icons__picture icons__picture_footer">
+                <img src="./images/rss_icon.png" alt="rss" class="icons__picture">
+            </div>
+            <h5 class="footer-subtitle">© 2015 Axure Themes</h5>
+        </div>
+    </footer>
 </body>
 
 </html>

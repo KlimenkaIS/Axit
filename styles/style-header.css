@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    background-color: black;
+}
+.header-items {
+    width: 1170px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;    
+}
+.header-items-logo {
+    width: 50%;
+}
+.header-items-navigation {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-items-navigation__menu {
+    display: flex;
+    align-items: center;
+    width: 113.799px;
+    height: 75px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
