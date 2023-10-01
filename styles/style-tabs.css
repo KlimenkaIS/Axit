@@ -1,9 +1,9 @@
-.tabs-with-soft {
+.tabs {
     margin-top: 99px;
     width: 100%;
 }
 
-.tabs {
+.tabs-main {
     box-sizing: border-box;
     width: 1170px;
     height: 540px;
@@ -50,10 +50,11 @@
 
 .tabs-navigate__none {
     display: inline-block;
-    width: 585px;
+    width: 601px;
     border-bottom: 1px solid #C6CBCD;
     color: #ffffff;
-    margin-left: -4px;
+    margin-left: -20px;
+    
 }
 
 .tabs-blocks {
@@ -116,4 +117,79 @@
     display: inline-block;
     width: 470px;
     height: 500px;
+}
+
+@media (max-width: 1230px) {
+    .tabs-main {
+        width: 100%;
+        height: 100%;
+    }
+    .right {
+        display: none;
+    }
+    .tabs-navigate {
+        margin: 0 auto;
+        width: 95%;
+        display: flex   ;
+    }
+    .tabs-navigate__one {
+        width: 25%;
+        margin-left: -1px;
+    }
+    .tabs-navigate__two {
+        width: 25%;
+        margin-left: 0px;
+    }
+    .tabs-navigate__three {
+        width: 100%;
+        text-align: start;
+    }
+    .tabs-navigate__none {
+        display: none;
+    }
+    .tabs-blocks {
+        display: block;
+        width: 95%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .left {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .left__title {
+        width: 80%;
+        height: 100%;
+        text-align: center;
+    }
+    .left__subtitle {
+        width: 80%;
+        height: 100%;
+        text-align: center;
+    }
+    .left__button {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .tabs-navigate__one {
+        width: 33%;
+    }
+    .tabs-navigate__two {
+        width: 33%;
+    }
+    .tabs-navigate__three {
+        width: 34%;
+        text-align: center;
+    }
+    .left__button {
+        width: 90%;
+    }
 }

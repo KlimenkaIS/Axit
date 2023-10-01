@@ -1,6 +1,6 @@
 .design {
     width: 100%;
-    background-image: url("/Axit/images/image2.png");
+    background-image: url("/images/image2.png");
 }
 .design_background-extra {
     width: 100%;
@@ -16,7 +16,7 @@
 .cap__subtitle_design-color {
     color: white;
 }
-.design-button {
+.design-button__item {
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -32,4 +32,23 @@
     font-weight: 600;
     text-transform: capitalize;
     text-decoration: none;  
+}
+
+@media (max-width: 1230px) {
+    .design {
+        background-size: auto;
+    }
+    .design_background-extra {
+        height: 100%;
+    }
+    .design-button {
+        padding-bottom: 58px;
+        width: 95%;
+        margin: 0 auto;
+    }
+}    
+@media (max-width: 440px) {
+    .design-button__item {
+        width: 95%;
+    }
 }

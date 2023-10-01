@@ -1,7 +1,4 @@
-body {
-    margin: 0;
-}
-header {
+.header {
     width: 100%;
     background-color: black;
 }
@@ -19,6 +16,14 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.header-items-alternative {
+    width: 50%;
+    display: none;
+}
+.header-items-alternative__vector {
+    width: 24px;
+    height: 18px;
+}
 .header-items-navigation__menu {
     display: flex;
     align-items: center;
@@ -32,4 +37,25 @@ header {
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+}
+
+@media (max-width: 1230px) {
+    .header-items{
+        width: 95%;
+    }
+}
+@media (max-width: 750px) {
+    .header-items-navigation {
+        width: 65%;
+    }
+}
+@media (max-width: 580px) {
+    .header-items-navigation {
+        display: none;
+    }
+    .header-items-alternative{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
 }

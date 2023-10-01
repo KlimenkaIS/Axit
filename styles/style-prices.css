@@ -4,7 +4,7 @@
     margin-top: 50px;
 }
 .group {
-    margin: auto;
+    margin: 0 auto;
     padding-bottom: 50px;
     display: flex;
     width: 1170px;
@@ -62,4 +62,29 @@
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
+}
+
+@media (max-width: 1230px) {
+    .group {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1220px) {
+    .group {
+        display: block;
+        margin: 0 auto;
+    }
+    .items {
+        margin-bottom: 27px;
+        align-items: center;
+    }
+    .items_hover:hover {
+        bottom: 0;
+    }
+}
+@media (max-width: 420px) {
+    .items__window {
+        width: 95%;
+    }
 }

@@ -41,6 +41,7 @@
     left: 30px;
 }
 .columns__subtitle {
+    width: 270px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
@@ -52,4 +53,44 @@
     position: absolute;
     bottom: 136px;
     left: 70px;
+}
+
+@media (max-width: 1230px) {
+    .customers-blocks {
+        width: 95%;
+    }
+}
+@media (max-width: 1220px) {
+    .customers-blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+    .columns {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 440px) {
+    .columns {
+        width: 95%;
+    }
+    .columns__title {
+        width: 50%;
+        font-size: 15px;
+        bottom: 44px;
+        left: 30px;
+    }
+    .columns__subtitle {
+        width: 50%;
+        font-size: 13px;
+        bottom: 27px;
+        left: 92px;
+    }
+    .columns__text {
+        width: 95%;
+        font-size: 15px;
+    }
+    .columns__photo {
+        width: 57px;
+        height: 57px;
+    }
 }

@@ -1,5 +1,6 @@
 .awesome {
     width: 100%;
+    margin: 0 auto;
 }
 
 .blocks {
@@ -37,4 +38,30 @@
     font-weight: 400;
     line-height: normal;
     padding-top: 8px;
+}
+
+@media (max-width: 1230px) {
+    .cap {
+        width: 95%;
+    }
+    .blocks {
+        width: 95%;
+    }
+    .awesome {
+        width: 95%;
+    }
+    .sections__logo {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
+@media (max-width: 870px) {
+    .sections {
+        display: block;
+        width: 95%;
+        margin: 0 auto; 
+    }
+    
 }

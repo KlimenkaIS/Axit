@@ -1,4 +1,4 @@
-footer {
+.footer {
 width: 100%;
 background-color: black;
 }
@@ -24,4 +24,20 @@ background-color: black;
 .icons__picture_footer {
     width: 53.2px;
     height: 53.2px;
+}
+
+@media (max-width: 1230px) {
+    .footer-items {
+        width: 95%;
+    }
+}
+@media (max-width: 900px) {
+    .icons__picture_footer{
+        width: 28px;
+        height: 26px;
+        }
+    .footer-subtitle {
+        margin-top: 27px;
+    }
+    
 }

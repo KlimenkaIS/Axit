@@ -22,26 +22,31 @@
 
 
 <body>
-    <header>
-    <div class="header-items">
-        <div class="header-items-logo">
-            <img class="header-items-logo__picture" src="images/logo.png" alt="logotype">
+    <header class="header">
+            <div class="header-items">
+            <div class="header-items-logo">
+                <img class="header-items-logo__picture" src="./images/logo.png" alt="logotype">
+            </div>
+            <nav class="header-items-alternative">
+                <img src="/images/Vector.png" alt="alt-menu" class="header-items-alternative__vector">
+            </nav>
+                <nav class="header-items-navigation">
+                <div class="header-items-navigation__menu">features</div>
+                <div class="header-items-navigation__menu">About</div>
+                <div class="header-items-navigation__menu">Pricing</div>
+                <div class="header-items-navigation__menu">Reviews</div>
+                <div class="header-items-navigation__menu">Contact</div>
+            </nav>
         </div>
-        <nav class="header-items-navigation">
-            <div class="header-items-navigation__menu">features</div>
-            <div class="header-items-navigation__menu">About</div>
-            <div class="header-items-navigation__menu">Pricing</div>
-            <div class="header-items-navigation__menu">Reviews</div>
-            <div class="header-items-navigation__menu">Contact</div>
-        </nav>
-    </div>
     </header>
     <section class="banner">
         <div class="banner_background-extra">
             <div class="banner-content">
                 <div class="banner-description">
-                    <img src="./images/AXIT.png" alt="AX" class="banner-description__logo">
-                    <img src="./images/AXIT2.png" alt="IT" class="banner-description__logo">
+                    <div class="banner-description-logo">
+                        <img src="./images/AXIT.png" alt="AX" class="banner-description-logo__parts">
+                        <img src="./images/AXIT2.png" alt="IT" class="banner-description-logo__parts">
+                    </div>
                     <div class="banner-description__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</div>
                     <div class="banner-description__line"></div>
                     <div class="banner-description__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
@@ -51,7 +56,7 @@
                     <h4 class="banner-form__title">Try Your <span class="banner-form__title_colortext">FREE</span> Trial Today</h4>
                     <input class="banner-form__input banner-form__input_placeholder" type="text" placeholder="Name">
                     <input class="banner-form__input banner-form__input_placeholder" type="text" placeholder="Email">
-                    <input class="banner-form__input banner-form__input_placeholder" type="text" placeholder="Password">
+                    <input class="banner-form__input banner-form__input_placeholder" type="password" placeholder="Password">
                     <button class="banner-form__button" type="submit">Get Started</button>
                 </form>
             </div>
@@ -75,8 +80,8 @@
             </div>
         </div>
     </section>
-    <section class="tabs-with-soft">
-        <div class="tabs">
+    <section class="tabs">
+        <div class="tabs-main">
             <div class="tabs-navigate">
                 <div class="tabs-navigate__one">tab 1</div>
                 <div class="tabs-navigate__two">tab 2</div>
@@ -220,8 +225,10 @@
                 <div class="cap__title cap__title_design-color">STYLISH AXURE DESIGN</div>
                 <div class="cap__line cap__line_design-color"></div>
                 <div class="cap__subtitle cap__subtitle_design-color">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</div>
-            </div>    
-            <a class="design-button" href="#">Download</a>
+            </div>
+            <div class="design-button">
+                <a class="design-button__item" href="#">Download</a>
+            </div> 
         </div>
     </section>
     <section class="contact">
@@ -231,16 +238,20 @@
             <div class="cap__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
         </div>
         <form action="" class="contact-form">
-            <div class="contact-line">
-                <input class="contact-line__input contact-line__input_placeholder" type="text" placeholder="Name">
-                <input class="contact-line__input contact-line__input_placeholder" type="text" placeholder="Email">
-                <input class="contact-line__input contact-line__input_placeholder" type="text" placeholder="Password">
+            <div class="contact-form-items">
+                <div class="contact-line">
+                    <input class="contact-line__input contact-line__input_placeholder" type="text" placeholder="Name">
+                    <input class="contact-line__input contact-line__input_placeholder" type="text" placeholder="Email">
+                    <input class="contact-line__input contact-line__input_placeholder" type="password" placeholder="Password">
+                </div>
+                <textarea class="contact-form-items__textarea contact-form-items__textarea_placeholder" placeholder="Message"></textarea>
             </div>
-            <textarea class="contact-textarea contact-textarea_placeholder" placeholder="Message"></textarea>
-            <button class="contact-form__button" type="submit">Send Message</button>
+            <div class="contact-form-button">
+                <button class="contact-form-button__item" type="submit">Send Message</button>
+            </div>
         </form>
     </section>
-    <footer>
+    <footer class="footer">
         <div class="footer-items">
             <div class="icons">
                 <img src="./images/facebook_icon.png" alt="facebook" class="icons__picture icons__picture_footer">
@@ -249,7 +260,7 @@
                 <img src="./images/pinterest_icon.png" alt="pinterest" class="icons__picture icons__picture_footer">
                 <img src="./images/instagram_icon.png" alt="instagram" class="icons__picture icons__picture_footer">
                 <img src="./images/github_icon.png" alt="github" class="icons__picture icons__picture_footer">
-                <img src="./images/rss_icon.png" alt="rss" class="icons__picture">
+                <img src="./images/rss_icon.png" alt="rss" class="icons__picture icons__picture_footer">
             </div>
             <h5 class="footer-subtitle">© 2015 Axure Themes</h5>
         </div>
